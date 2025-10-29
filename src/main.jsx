@@ -19,8 +19,8 @@ import Auth from "./page/Auth/Auth";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <Auth />
-      {false && (
+      {/* <Auth /> */}
+      {true && (
         <div>
           <Navbar />
           <Routes>
